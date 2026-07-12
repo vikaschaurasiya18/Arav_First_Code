@@ -10,5 +10,6 @@ public class Main {
         System.out.println(Class);
         System.out.println(Age);
         System.out.println(Course);
+
     }
 }
