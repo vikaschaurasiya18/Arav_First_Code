@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("Welcome, " + studentName);
         System.out.println("Your age is, " + studentAge);
-        String name = "ALok";
+        String name = "RAJ";
 
 
     }
