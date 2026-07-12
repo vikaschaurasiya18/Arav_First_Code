@@ -15,6 +15,5 @@ public class Project {
         System.out.println("Your age is, " + studentAge);
         String name = "RAJ";
 
-
     }
 }
