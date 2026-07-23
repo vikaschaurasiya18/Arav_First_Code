@@ -234,21 +234,251 @@ public class VSC {
 
 //Q    TO KNOW THE INPUT NUMBER IS PRIME OR NOT:---------------------------------------------------------
 
-        System.out.print("Enter the number to know if it is prime or not: ");
-        int num = sc.nextInt();
-        int i = 2;
-        int result=0;
-        while(i<num){
-            if (num%i == 0) {
-                result = 1;
-                break;
-            }
-            i+=1;
-        }
-        if(result == 0){
-            System.out.print(num+" is a Prime number!!!");
-        }else{
-            System.out.print(num+" is a non prime number!!!");
-        }
+//        System.out.print("Enter the number to know if it is prime or not: ");
+//        int num = sc.nextInt();
+//        int i = 2;
+//        int result=0;
+//        while(i<num){
+//            if (num%i == 0) {
+//                result = 1;
+//                break;
+//            }
+//            i+=1;
+//        }
+//        if(result == 0){
+//            System.out.print(num+" is a Prime number!!!");
+//        }else{
+//            System.out.print(num+" is a non prime number!!!");
+//        }
+
+
+
+//        for (int i = 5; i >= 1; i--){
+//            for(int j = 1; j<=i; j++ ){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//
+//        }
+//        for(int i = 1;i <=4; i++){
+//            System.out.print("*****");
+//            System.out.println();
+//        }
+
+
+//        System.out.print("Enter the length of rectangle: ");
+//        int n = sc.nextInt();
+//        System.out.print("Enter the width of rectangle: ");
+//        int m = sc.nextInt();
+//        for(int i = 1; i<=n; i++){
+//            for(int j = 1; j<=m; j++){
+//                if(i==1||j==1||i==n||j==m) {
+//                    System.out.print("*  ");
+//                }
+//                else{
+//                    System.out.print("   ");
+//                }
+//            }
+//            System.out.println();
+//        }
+
+//Q     TO PRINT THE HALF PYRAMID:------------------------------------------
+//        for(int i = 1; i<=4; i++){
+//            for(int j = 1; j<=i; j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+
+//      TO PRINT THE SAME IN REVERSE ORDER:------------------------------------
+//        for(int i = 5; i>=1; i=i-1){
+//            for(int j = 1; j<=i; j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+//                int n = 5;
+//
+//                for (int i = 1; i <= n; i++) {
+//
+//                    // Print leading spaces
+//                    for (int j = 1; j <= n - i; j++) {
+//                        System.out.print("-");
+//                    }
+//
+//                    // Print stars with spaces between them
+//                    for (int j = 1; j <= i; j++) {
+//                        System.out.print("*a");
+//                    }
+//
+//                    System.out.println();
+//                }
+
+
+//        System.out.print("Enter the N: ");
+//        int n = sc.nextInt();
+//        for (int i = 1; i<=n; i++){
+//            for(int j = 1; j<=i; j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//        int n = 4;
+//        for(int i = 1; i<=n; i++){
+//            for(int j = 1; j<=n-i; j++){
+//                System.out.print(" ");
+//            }
+//            for(int j = 1; j<=i; j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+//        int n = 5;
+//        for (int i = 1; i<=n; i++){
+//                for (int j = 1; j <= i;j++) {
+//                    System.out.print(j);
+//                }
+//                System.out.println();
+//        }
+
+//        int n = 5;
+//        for(int i=n; i>=1; i--){
+//            for(int j = 1; j<=i; j++){
+//                System.out.print(j+" ");
+//            }
+//            System.out.println();
+//            }
+
+
+//        for (int i = 1; i<=n; i++){
+//            for(int j = 1; j<=n-i+1; j++){
+//                System.out.print(j+" ");
+//            }
+//            System.out.println();
+//        }
+
+
+//        int n = 5;
+//        int num = 15;
+//        for(int i = n; i>=1; i--){
+//            for(int j = 1; j<=i; j++){
+//                System.out.print(num+" ");
+//                num--;
+//            }
+//            System.out.println();
+//        }
+
+//        int n = 5;
+//        for(int i = 1; i<=n; i++ ){
+//            for(int j = 1; j<=i; j++){
+//                if((i+j)%2==0){
+//                    System.out.print(1+" ");
+//                }
+//                else{
+//                    System.out.print(0+" ");
+//                }
+//            }System.out.println();
+//        }
+//Q     TO PRINT THE SOLID RHOMBUS:--------------------------------
+//        int n = 5;
+//        for(int i = 1; i<=n; i++){
+//            for(int j=n-i; j>=1; j--){
+//                System.out.print(" ");
+//            }
+//            for(int j = 1; j<=n; j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+//Q     TO PRINT A NUMBER PYRAMID:----------------------------------
+
+//        int n = 5;
+//        for(int i = 1; i<=5; i++){
+//            for(int j =1; j<=n-i; j++){
+//                System.out.print(" ");
+//            }
+//            for(int j = 1; j<=i; j++){
+//                System.out.print(i+" ");
+//            }
+//            System.out.println();
+//        }
+
+//Q   TO PRINT A PALINDROMIC NUMBER PYRAMID:---------------------------------
+
+//        int n = 5;
+//        for (int i = 1; i<=n; i++){
+//            for(int j = 1; j<=n-i; j++){
+//                System.out.print("  ");
+//            }
+//            for(int j = i; j>1; j--){
+//                System.out.print(j+" ");
+//            }
+//            for(int j = 1; j<=i; j++){
+//                System.out.print(j+" ");
+//            }
+//            System.out.println();
+//        }
+
+//Q    TO PRINT THE BUTTERFLY STARS:------------------------
+
+//        int  n =4;
+//        for(int i =1; i<=n; i++) {
+//            for (int j = 1; j <= i; j++) {
+//                System.out.print("* ");
+//            }
+//            int spaces = 2*(n-i);
+//            for(int j = 1; j<=spaces; j++){
+//                System.out.print("  ");
+//            }
+//            for(int j = 1; j<=i; j++){
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+//        for(int i =n; i>=1; i--){
+//            for(int j =1; j<=i; j++) {
+//                System.out.print("* ");
+//            }
+//            int spaces = 2*(n-i);
+//            for(int j = 1; j<=spaces; j++){
+//                System.out.print("  ");
+//            }
+//            for(int j = 1; j<=i; j++){
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+
+//Q     TO PRINT THE DIAMOND PATTERN:-------------------------------
+
+//        int n =4;
+//        for(int i =1; i<=n; i++){
+//            for(int  j = 1; j<=n-i; j++){
+//                System.out.print("  ");
+//            }
+//            for(int j = 1; j<=i; j++){
+//                System.out.print("* ");
+//            }
+//            for(int j = 2; j<=i; j++){
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+//        for(int i =n; i>=1; i--){
+//            for(int  j = 1; j<=n-i; j++){
+//                System.out.print("  ");
+//            }
+//            for(int j = 1; j<=i; j++){
+//                System.out.print("* ");
+//            }
+//            for(int j = 2; j<=i; j++){
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+
+
     }
 }
