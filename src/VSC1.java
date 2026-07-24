@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class VSC {
+public class VSC1 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 
@@ -475,6 +475,22 @@ public class VSC {
 //            }
 //            for(int j = 2; j<=i; j++){
 //                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+
+//Q   TO PRINT THE ZIG ZAG STAR PATTERN:------------------------------------------------------
+
+//        int n = 15;
+//
+//        for (int i = 1; i <= 3; i++) {
+//            for (int j = 1; j <= n; j++) {
+//
+//                if ((i + j) % 4 == 0 || (i == 2 && j % 4 == 0)) {
+//                    System.out.print("* ");
+//                } else {
+//                    System.out.print("  ");
+//                }
 //            }
 //            System.out.println();
 //        }
