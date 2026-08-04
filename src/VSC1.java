@@ -494,7 +494,5 @@ public class VSC1 {
             }
             System.out.println();
         }
-
-
     }
 }
